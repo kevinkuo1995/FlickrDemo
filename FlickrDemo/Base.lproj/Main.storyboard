@@ -33,7 +33,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PqD-cw-h7B"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favorite" id="8cI-j7-AWU"/>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="star.fill" catalog="system" id="8cI-j7-AWU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RMG-Ls-tEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +43,7 @@
         <scene sceneID="BEF-VN-IJQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oAr-rE-6uh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" id="DeS-tA-3cD"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="DeS-tA-3cD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dPe-9c-IQV">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -77,4 +77,8 @@
             <point key="canvasLocation" x="131.8840579710145" y="492.85714285714283"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+        <image name="star.fill" catalog="system" width="64" height="58"/>
+    </resources>
 </document>
